@@ -3,6 +3,7 @@ body {
 }
 
 .stopwatchButton {
+  width: 70px;
   padding: 10px;
   margin: 5px;
   border-radius: 5px;
@@ -11,4 +12,12 @@ body {
 
 #startButton {
   background-color: #00ee9fab;
+}
+
+#stopButton {
+  background-color: #ff5d5d;
+}
+
+#resetButton:disabled {
+  opacity: 0.9;
 }
