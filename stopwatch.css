@@ -4,6 +4,7 @@ body {
 
 .stopwatchButton {
   padding: 10px;
+  margin: 5px;
   border-radius: 5px;
   border: 1px solid #a9a9a9;
 }
