@@ -1,0 +1,13 @@
+body {
+  background-color: #cecece;
+}
+
+.stopwatchButton {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a9a9a9;
+}
+
+#startButton {
+  background-color: #00ee9fab;
+}
