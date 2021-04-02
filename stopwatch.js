@@ -25,12 +25,13 @@ function addElementsOnLoad() {
 function onStartButtonClick() {
   startButton.remove();
   showStopButton();
-  resetButton.disabled = false;
+  resetButton.disabled = true;
 }
 
 function onStopButtonClick() {
   stopButton.remove();
   showStartButtton();
+  resetButton.disabled = false;
 }
 
 function onResetButtonClick() {
